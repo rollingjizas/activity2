@@ -39,7 +39,7 @@ include "configure.php";
 						header("Location: index.php?error=Password is required!");
 		 				exit();
 		 			}else{
-		 				header("Location: index.php?error=Sorry! You entered invalid account!");
+		 				header("Location: infodash.php?error=Sorry! You entered invalid account!");
 		 				exit();
 		 			}
 	}

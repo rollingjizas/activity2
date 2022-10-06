@@ -27,8 +27,8 @@ include "iwishiwasheader.php";
 					<?php if (isset($_GET['error'])) { ?>
 						<p class="error text-danger"><?php echo $_GET['error']; ?></p>
 					<?php } ?>
-					<input type="text" placeholder="username" name="surname" />
-					<input type="password" placeholder="password" name="password" />
+					<input type="text" placeholder="Surname" name="surname" />
+					<input type="password" placeholder="Password" name="password" />
 					<button type="submit" name="submit" class="btn btn-light btn-outline-success float-middle">Submit</button>
 					<p class="message">Not registered? <a href="#">Create an account</a></p>
 				</form>
