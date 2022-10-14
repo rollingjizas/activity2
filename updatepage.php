@@ -12,7 +12,7 @@ if(isset($_SESSION['worker_id']) && isset($_SESSION['surname']) && isset($_SESSI
 			<div class= "float-end"><?php include('notification.php'); ?></div>
 			<a class="btn btn-outline-primary btn-light " float-end href="infodash.PHP" role="button">Back to Admin Homepage</a><br>
 			
-			<form action="adduser1.php" method="POST">
+			<form action="updateuser.php" method="POST">
 				<font face ="verdana" size = "5"> 
 				<div class="mb-3">
                 <input type="text" 		            name="worker_id"            placeholder="worker_id" 		    class="form-control" required> <br>

@@ -9,7 +9,7 @@ include "configure.php";
 		$result=mysqli_query($conn, $sql);
 		$row=mysqli_fetch_array($result);
         if ($row["work_shift"] == "day") {
-            $_SESSION['id'] = $row['id'];
+            $_SESSION['worker_id'] = $row['worker_id'];
             $_SESSION['surname'] = $row['surname'];
             $_SESSION['work_position'] = $row['work_position'];
             $_SESSION['salary'] = $row['salary'];
