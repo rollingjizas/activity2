@@ -6,7 +6,7 @@ include "configure.php";
 
 $worker_id = $_POST['search'];
 $query = "select * from infoquiz2 where worker_id like '%$worker_id%' ";
-$result = mysqli_query($connection, $query);
+$result = mysqli_query($conn, $query);
 
 ?>
 <?php
