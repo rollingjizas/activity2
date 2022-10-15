@@ -16,7 +16,6 @@ $db["db_host"] = "remotemysql.com";
 $db["db_user"] = "p9Lesildoe";
 $db["db_pass"] = "JMwZj8ICYX";
 $db["db_name"] = "p9Lesildoe";
-\\
 foreach ($db as $key => $value) {
 	define(strtoupper($key), $value);
 }
