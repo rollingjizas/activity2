@@ -2,6 +2,7 @@
 include "configure.php";
 session_start(); 
 
+
 	if(isset($_SESSION['worker_id']) && isset($_SESSION['surname']) && isset($_SESSION['work_position']) && isset($_SESSION['salary']) && isset($_SESSION['hours_of_work']) && isset($_SESSION['department_number'])
 	&& isset($_SESSION['work_shift'])) {
 
