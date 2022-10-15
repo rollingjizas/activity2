@@ -1,5 +1,5 @@
 <?php
-=============FOR LOCAL CONNECTION===========
+// =============FOR LOCAL CONNECTION===========
 // $sname = "localhost";
 // $uname = "root";
 // $pass = "root";
