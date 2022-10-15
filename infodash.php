@@ -7,7 +7,11 @@ session_start();
 	&& isset($_SESSION['work_shift'])) {
 
 
+		$query = "SELECT * FROM infoquiz2";
+		$selec_data = mysqli_query($conn, $query);
+		while ($row = mysqli_fetch_assoc($selec_data)) {
 	
+			$user_id = $row['worker_id'];
 	}
 ?>
 	<?php include "iwishiwasheader.php"; ?>

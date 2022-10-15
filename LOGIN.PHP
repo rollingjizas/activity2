@@ -1,7 +1,7 @@
 <?php 
 
 include "configure.php";
-session start();
+
 	if ($_SERVER['REQUEST_METHOD'] == "POST"){
 		$surname=$_POST['surname'];
 		$password=$_POST['password'];
