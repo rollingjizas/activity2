@@ -9,7 +9,9 @@
 // if (!$conn) {
 // 	echo "CONNECTION FAILED!!!";
 // }
-=============FOR REMOTE CONNECTION===========
+
+
+// =============FOR REMOTE CONNECTION===========
 $db["db_host"] = "remotemysql.com";
 $db["db_user"] = "p9Lesildoe";
 $db["db_pass"] = "JMwZj8ICYX";
