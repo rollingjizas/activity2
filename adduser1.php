@@ -34,13 +34,13 @@ $work_shift =  $_POST['work_shift'];
 $query = "INSERT INTO infoquiz2 (worker_id, surname, password, work_position, salary, hours_of_work, department_number, work_shift)
 	 VALUES ($id ,'$surname', '$password', '$work_position', '$salary','$hours_of_work', '$department_number','$work_shift')";
 
-$result = mysqli_query($connection, $query);
+$result = mysqli_query($conn, $query);
 if ($result) {
 	echo "Succesfuly Account Added";
 } else {
-	die('Error: ' . mysqli_error($connection));
+	die('Error: ' . mysqli_error($conn));
 }
-mysqli_close($connection);
+mysqli_close($conn);
 
 ?>
 
