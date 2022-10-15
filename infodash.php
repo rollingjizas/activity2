@@ -2,23 +2,12 @@
 include "configure.php";
 session_start();
 
-<<<<<<< HEAD
 
 	if(isset($_SESSION['worker_id']) && isset($_SESSION['surname']) && isset($_SESSION['work_position']) && isset($_SESSION['salary']) && isset($_SESSION['hours_of_work']) && isset($_SESSION['department_number'])
 	&& isset($_SESSION['work_shift'])) {
-=======
-if (
-	isset($_SESSION['worker_id']) && isset($_SESSION['surname']) && isset($_SESSION['work_position']) && isset($_SESSION['salary']) && isset($_SESSION['hours_of_work']) && isset($_SESSION['department_number'])
-	&& isset($_SESSION['work_shift'])
-) {
->>>>>>> 6dafb84679e7fcfcbf14898b6f05dcc4b8067841
 
 
-	$query = "SELECT * FROM infoquiz2";
-	$selec_data = mysqli_query($conn, $query);
-	while ($row = mysqli_fetch_assoc($selec_data)) {
-
-		$user_idd = $row['worker_id'];
+	
 	}
 ?>
 	<?php include "iwishiwasheader.php"; ?>
