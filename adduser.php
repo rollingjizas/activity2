@@ -15,16 +15,16 @@ if(isset($_SESSION['worker_id']) && isset($_SESSION['surname']) && isset($_SESSI
 			<form action="adduser1.php" method="POST">
 				<font face ="verdana" size = "5"> 
 				<div class="mb-3">
-                <input type="text" 		            name="worker_id"            placeholder="worker_id" 		    class="form-control" required> <br>
-				<input type="text" 		            name="surname"		        placeholder="surname" 		        class="form-control" required> <br>
-				<input type="password" 	            name="password" 	        placeholder="password" 		        class="form-control" required> <br>
-				<input type="text"           		name="work_position"        placeholder="work_position"		    class="form-control" required> <br>
-				<input type="text" 		            name="salary" 	            placeholder="salary" 	            class="form-control" required> <br>
-				<input type="text" 		            name="hours_of_work" 	    placeholder="hours_of_work" 	    class="form-control" required> <br>
-				<input type="text" 		            name="department_number" 	placeholder="department_number" 	class="form-control" required> <br>
-				<input type="text" 		            name="work_shift" 			placeholder="work_shift" 			class="form-control" required> <br>
-</font>
-                <button type="submit" 	name="add_user" class="btn btn-outline-success btn-light">Add User Account</button></center>
+                <input type="text" 		            name="worker_id"            placeholder="Worker ID" 		    class="form-control" required> <br>
+				<input type="text" 		            name="surname"		        placeholder="Surname" 		        class="form-control" required> <br>
+				<input type="password" 	            name="password" 	        placeholder="Password" 		        class="form-control" required> <br>
+				<input type="text"           		name="work_position"        placeholder="Work Position"		    class="form-control" required> <br>
+				<input type="text" 		            name="salary" 	            placeholder="Salary" 	            class="form-control" required> <br>
+				<input type="text" 		            name="hours_of_work" 	    placeholder="Hours of Work" 	    class="form-control" required> <br>
+				<input type="text" 		            name="department_number" 	placeholder="Department Number" 	class="form-control" required> <br>
+				<input type="text" 		            name="work_shift" 			placeholder="Work Shift" 			class="form-control" required> <br>
+</font><br><br><br>
+                <button type="submit" 	name="add_user" class="btn btn-outline-success btn-light">Add Worker Account</button></center>
 				</div><br>
 			</form>
 		</div>

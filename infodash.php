@@ -18,7 +18,7 @@ $user_idd = $row['worker_id'];
 
 	<br><br><br><br><br><br><br>
 	<div class><br>
-		<div class>Information Management System - Activity 2 in ADV03</div>
+		<div class><font face ="verdana" size = "7"><center>Information Management System - Activity 2 in ADV03</center></font></div>
 		<div class="float-end"><?php include('NOTIFICATION.php'); ?></div><br>
 		<a href="adduser.php" class="btn btn-light btn-outline-success float-start"  >Add User Worker</a><br>
 		<form method="post" action="searchuser.php">
