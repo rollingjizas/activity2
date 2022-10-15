@@ -11,9 +11,9 @@
 // }
 =============FOR REMOTE CONNECTION===========
 $db["db_host"] = "remotemysql.com";
-$db["db_user"] = "hM9fglI15d";
-$db["db_pass"] = "5xZ2vURCTr";
-$db["db_name"] = "hM9fglI15d";
+$db["db_user"] = "p9Lesildoe";
+$db["db_pass"] = "JMwZj8ICYX";
+$db["db_name"] = "p9Lesildoe";
 
 foreach ($db as $key => $value) {
 	define(strtoupper($key), $value);
