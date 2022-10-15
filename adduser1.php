@@ -1,10 +1,7 @@
 <?php 
- $servername = "localhost";  
-       $username = "root";  
-       $password = "root";
-       $database= "infoact2";  
-       $connection=mysqli_connect ($servername , $username , $password, $database) or die ("My SQL Error");
+
 session_start();
+include"configure.php";
 	//FOR DELETE FUNCTION
 	if (isset($_GET['delete_user'])) {
 		$user_id = mysqli_real_escape_string($conn, $_GET['delete_user']);
